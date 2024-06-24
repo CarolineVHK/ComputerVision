@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['cup of coffee', 'glasses', 'pen', 'scissor']
+
+roboflow:
+  workspace: caro-vh
+  project: yolo10-a21kf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/caro-vh/yolo10-a21kf/dataset/1
